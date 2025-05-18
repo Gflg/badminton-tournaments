@@ -1,0 +1,40 @@
+# --- PYTHON ---
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+instance/
+.env
+*.env
+
+# FastAPI logs or uploads
+uploads/
+*.log
+
+# --- NODE / REACT ---
+node_modules/
+build/
+dist/
+.cache/
+*.log
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# React coverage (testing)
+coverage/
+
+# --- VS CODE ---
+.vscode/
+.history/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- OTHER ---
+*.bak
+*.swp
